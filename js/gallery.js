@@ -90,7 +90,6 @@ function getLargeImageURL(e) {
   const elemImg = e.target;
   if (elemImg.hasAttribute('data-source')) {
     basicLightbox.create(`<img  src="${elemImg.dataset.source}">`).show();
-    // console.log(elemImg.getAttribute('data-source'));
   }
 }
 
